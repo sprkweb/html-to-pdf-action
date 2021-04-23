@@ -28,6 +28,6 @@
   },
   "devDependencies": {
     "@types/node": "^10.10.4",
-    "puppeteer": "2.1.1"
+    "puppeteer": "5.5.0"
   }
 }
