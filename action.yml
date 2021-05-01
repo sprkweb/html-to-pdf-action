@@ -1,4 +1,4 @@
-name: "HTML to PDF"
+name: "HTML to PDF action"
 description: "Converts HTML file to PDF."
 author: "lukaszlapaj@interia.pl"
 inputs:
