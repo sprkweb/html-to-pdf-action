@@ -1,11 +1,9 @@
 FROM buildkite/puppeteer:8.0.0
 
-LABEL MAINTAINER="Xudong Cai <fifsky@gmail.com>"
+LABEL MAINTAINER="Łukasz Łapaj <lukaszlapaj@interia.pl>"
+
+ENTRYPOINT ["node", "/lib/main.js"]
 
 COPY . .
 
-#RUN mv simsun.ttf /usr/local/share/fonts/
-
 RUN npm install --production
-
-ENTRYPOINT ["node", "/lib/main.js"]
