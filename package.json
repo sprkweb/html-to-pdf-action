@@ -5,16 +5,19 @@
   "main": "lib/main.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fifsky/html-to-pdf-action.git"
+    "url": "git+https://github.com/LukaszLapaj/html-to-pdf-action.git"
   },
-  "homepage": "https://github.com/fifsky/html-to-pdf-action#readme",
+  "homepage": "https://github.com/LukaszLapaj/html-to-pdf-action#readme",
   "keywords": [
     "actions",
     "container",
     "toolkit",
-    "pdf"
+    "pdf",
+    "html",
+    "converter",
+    "puppeteer"
   ],
-  "author": "fifsky@gmail.com",
+  "author": "lukaszlapaj@interia.pl",
   "license": "MIT",
   "dependencies": {
     "@actions/core": "^1.2.7",
