@@ -1,4 +1,4 @@
-FROM buildkite/puppeteer:8.0.0
+FROM buildkite/puppeteer:10.0.0
 
 LABEL MAINTAINER="Łukasz Łapaj <lukaszlapaj@interia.pl>"
 
