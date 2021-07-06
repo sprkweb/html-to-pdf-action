@@ -1,7 +1,6 @@
 const autoBind = require("auto-bind")
 const puppeteer = require("puppeteer")
 const Server = require("./server")
-const fs = require("fs");
 
 class HTML5ToPDF {
   constructor(options) {
@@ -42,9 +41,10 @@ class HTML5ToPDF {
   }
 
   async build() {
-    const pdfStream = await this.page.createPDFStream(this.options.pdf);
-    const writeStream = fs.createWriteStream(this.options.pdf.path);
-    pdfStream.pipe(writeStream);
+    const buf = await this.page.pdf(this.options.pdf)
+    if (!this.options.pdf.path) {
+      return buf
+    }
   }
 
   async close() {
