@@ -31,10 +31,10 @@
     "es6-promisify": "^6.1.1",
     "finalhandler": "^1.2.0",
     "mkdirp": "^1.0.4",
-    "serve-static": "^1.15.0"
+    "serve-static": "^1.15.0",
+    "puppeteer": "^13.6.0"
   },
   "devDependencies": {
-    "@types/node": "^16.11.27",
-    "puppeteer": "^10.4.0"
+    "@types/node": "^16.11.27"
   }
 }
