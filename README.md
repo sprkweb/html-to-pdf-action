@@ -2,7 +2,7 @@
 
 A [GitHub Action](https://github.com/features/actions) that converts a HTML file to PDF.
 
-## ✨ Example Usage
+## Example Usage
 
 ```yml
 - name: html to pdf
@@ -14,3 +14,7 @@ A [GitHub Action](https://github.com/features/actions) that converts a HTML file
 ```
 
 `pdfOptions` relate to [puppeteers page.pdf options](https://github.com/GoogleChrome/puppeteer/blob/master/docs/api.md#pagepdfoptions)
+
+## Credits
+* [Buildkite](https://github.com/buildkite) for docker image setup.
+* [fifsky](https://github.com/fifsky) for initial idea.
